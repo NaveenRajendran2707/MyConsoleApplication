@@ -3,7 +3,7 @@ name: Hello World Pipeline   # The name of your pipeline
 on:                          # Triggers (when to run the pipeline)
   push:
     branches:
-      - main                 # Runs when you push code to the "main" branch
+      - master                 # Runs when you push code to the "main" branch
 
 jobs:                        # Define jobs
   build:                     # Job name (you can call it anything)
